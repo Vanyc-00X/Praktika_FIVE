@@ -1,0 +1,54 @@
+<Window xmlns="https://github.com/avaloniaui"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        mc:Ignorable="d" d:DesignWidth="800" d:DesignHeight="450"
+        x:Class="FIVE.CardTovar"
+        Title="CardTovar">
+
+
+	<Grid Background="#f2f063">
+
+
+		<Grid.RowDefinitions>
+			<RowDefinition/>
+			<RowDefinition/>
+			<RowDefinition/>
+			<RowDefinition/>
+		</Grid.RowDefinitions>
+
+		<Grid.ColumnDefinitions>
+			<ColumnDefinition/>
+			<ColumnDefinition/>
+			<ColumnDefinition/>
+			<ColumnDefinition/>
+		</Grid.ColumnDefinitions>
+
+
+		<TextBlock Text="Карточка Товара" Grid.Column="1" Grid.ColumnSpan="2"
+				   HorizontalAlignment="Center" VerticalAlignment="Center"
+				   FontSize="40"/>
+		<TextBox x:Name="ManeTovarText" Text="{Binding NameTovar}" Grid.Row="1" Grid.RowSpan="2" VerticalAlignment="Center" HorizontalAlignment="Center" Width="170" Height="80"/>
+
+		<TextBox x:Name="SellText" Text="{Binding Sell}" Grid.Row="1" Grid.RowSpan="2" VerticalAlignment="Center" HorizontalAlignment="Center"  Grid.Column="3" Width="170" Height="80"/>
+
+		
+		<Button	 Click="Button_Click"
+			Grid.Row="3" Grid.Column="3" Background="#f2f063">
+		<Image Source="/Assets/gost.png" />
+		</Button>
+		
+		<Image Source="/images/tOVBA.png" Grid.Row="1" Grid.ColumnSpan="2" Grid.RowSpan="3" Grid.Column="1" Width="230" Height="400"
+			   HorizontalAlignment="Center" VerticalAlignment="Center"/>
+
+
+		<Button Click="Button_Click_1" Background="#f2f063" Grid.Row="3">
+			<Image Source="avares://FIVE/images/baske.png"/>
+		</Button>
+
+	</Grid>
+	
+	
+
+	
+</Window>

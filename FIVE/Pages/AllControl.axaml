@@ -1,0 +1,56 @@
+<UserControl xmlns="https://github.com/avaloniaui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+             mc:Ignorable="d" d:DesignWidth="800" d:DesignHeight="450"
+             x:Class="FIVE.AllControl"
+			 xmlns:uc="clr-namespace:FIVE">
+
+	<Grid Background="#f2f063" >
+		
+		
+		
+		
+		
+		
+		<TabControl TabStripPlacement="Right">
+			<TabItem Header="ПРОФИЛЬ">
+				<StackPanel>
+					<TextBlock Text="ФИО" FontSize="29" Margin="20 25"/>
+					<TextBox x:Name="FIOText" Text="{Binding IdHumanNavigation.Fio}" Width="140" Height="65" FontSize="24" Margin="-90 -70 50 0"/>
+					<TextBlock  Text="ПАРОЛЬ" FontSize="29" Margin="20 25"/>
+					<TextBox  x:Name="PassText" Text="{Binding Password}" Width="140" Height="65" FontSize="24" Margin="-90 -70 50 0"/>
+					<TextBlock Text="ПОЧТА" FontSize="29" Margin="20 25"/>
+					<TextBox  x:Name="EmText" Text="{Binding IdHumanNavigation.Email}" Width="140" Height="65" FontSize="24" Margin="-90 -70 50 0"/>
+					<TextBlock Text="ТЕЛЕФОН" FontSize="29" Margin="20 25"/>
+					<TextBox  x:Name="PhText" Text="{Binding IdHumanNavigation.Phone}" Width="140" Height="65" FontSize="24" Margin="-90 -70 50 0"/>
+					<Button Click="Button_Click"
+						Width="270" Content="СЛУЖУ СССР" FontSize="30" HorizontalContentAlignment="Center"
+							VerticalContentAlignment="Center" Height="90" Margin="320 20"/>
+				</StackPanel>
+				
+			</TabItem>
+			<TabItem Header="Товары">
+				<uc:Tovar_Spisoc/>
+			</TabItem>
+			<TabItem Header="Корзина">
+				
+			</TabItem>
+			<TabItem Header="Сотрудники">
+				<uc:Sotrud/>
+			</TabItem>
+
+			<TabItem Header="Клиенты">
+				<uc:Clients/>
+			</TabItem>
+			
+			
+			
+			
+			
+		</TabControl>
+	</Grid>
+	
+	
+	
+</UserControl>

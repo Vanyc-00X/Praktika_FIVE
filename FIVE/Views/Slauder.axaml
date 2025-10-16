@@ -1,0 +1,36 @@
+<Window xmlns="https://github.com/avaloniaui"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        mc:Ignorable="d" d:DesignWidth="800" d:DesignHeight="450"
+        x:Class="FIVE.Slauder"
+        Title="Slauder">
+	<Grid Background="#f2f063">
+
+
+
+		<Border Padding="15" CornerRadius="15">
+			<StackPanel  Margin="0 50" Spacing="10">
+				<StackPanel>
+					<TextBlock FontSize="45" Text="Количество товара " FontWeight="Bold"/>
+					<TextBlock Margin="380 -55" FontSize="45" Text="{Binding #slider.Value}"/>
+				</StackPanel>
+				<Slider Margin="0 100"
+						SmallChange="1"
+					x:Name="slider" LargeChange="1"
+					 Minimum="1"
+					   Maximum="100"
+					   Value="50"/>
+				<Button Click="Button_Click" Width="400" Height="90" Margin="0 -40"
+						Content="Записать количество" FontSize="40"
+						HorizontalContentAlignment="Center" VerticalContentAlignment="Center"/>
+			</StackPanel>
+		</Border>
+		
+		
+		
+		
+		
+		
+	</Grid>
+</Window>

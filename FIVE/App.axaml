@@ -1,0 +1,30 @@
+<Application xmlns="https://github.com/avaloniaui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             x:Class="FIVE.App"
+             xmlns:local="using:FIVE"
+             RequestedThemeVariant="Default">
+	<!-- "Default" ThemeVariant следует системной теме. Доступны также "Dark" или "Light". -->
+
+	<Application.DataTemplates>
+		<local:ViewLocator/>
+	</Application.DataTemplates>
+
+	<Application.Styles>
+		<FluentTheme />
+		<Style Selector="TextBox">
+			<Setter Property="HorizontalContentAlignment" Value="Center"/>
+			<Setter Property="VerticalContentAlignment" Value="Center"/>
+			<Setter Property="TextAlignment" Value="Center"/>
+			<Setter Property="FontSize" Value="20"/>
+		</Style>
+		<StyleInclude Source="avares://Avalonia.Controls.DataGrid/Themes/Fluent.xaml" />
+		<Style>
+			<Style.Resources>
+				<FontFamily x:Key="DefaultFont">avares://FIVE/Assets/font/Izvestija.ttf#Izvestija</FontFamily>
+			</Style.Resources>
+		</Style>
+		<Style Selector="Window">
+			<Setter Property="FontFamily" Value="{StaticResource DefaultFont}"/>
+		</Style>
+	</Application.Styles>
+</Application>
