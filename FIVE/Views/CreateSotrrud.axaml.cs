@@ -2,26 +2,25 @@
 using Avalonia.Controls;
 using Avalonia.Markup.Xaml;
 using FIVE.Data;
-using FIVE.Models;
 using System;
 using System.Linq;
 using System.Threading.Tasks;
 
 namespace FIVE;
 
-public partial class CreateClient : Window
+public partial class CreateSotrrud : Window
 {
-    public CreateClient()
+    public CreateSotrrud()
     {
         InitializeComponent();
+
         var user = new User
         {
             IdHumanNavigation = new Human(),
-            IdRole = 3 
+            IdRole = 2
         };
         DataContext = user;
     }
-
     private async void Button_Click(object? sender, Avalonia.Interactivity.RoutedEventArgs e)
     {
         if (!string.IsNullOrEmpty(LoginText.Text) && !string.IsNullOrEmpty(PassText.Text) &&
@@ -31,7 +30,7 @@ public partial class CreateClient : Window
             var user = DataContext as User;
             if (user != null && user.IdHumanNavigation != null)
             {
-                
+
                 if (App.DbContext.Users.Any(u => u.Login == user.Login))
                 {
                     await ShowError("Пользователь с таким логином уже существует");
@@ -51,9 +50,9 @@ public partial class CreateClient : Window
                     App.DbContext.SaveChanges();
                     this.Close();
                 }
-                catch 
+                catch
                 {
-                    Console.WriteLine( "😢😢 ГИГАЧАТ ТОП ХЕХЕХЕХЕХЕХХХХХХХХХХХХХХХХХХХХХХХХХХХХХХХХХХХХХХХХХХХЕЕЕЕЕЕЕЕЕЕЕЕЕЕЕЕЕЕЕЕЕЕХЕХЕХХЕХХЕХХЕХЕХЕХЕХЕХХЕХЕХЕХЕХЕХЕХЕХЕХЕХ)");
+                    Console.WriteLine("😢😢 ГИГАЧАТ ТОП ХЕХЕХЕХЕХЕХХХХХХХХХХХХХХХХХХХХХХХХХХХХХХХХХХХХХХХХХХХЕЕЕЕЕЕЕЕЕЕЕЕЕЕЕЕЕЕЕЕЕЕХЕХЕХХЕХХЕХХЕХЕХЕХЕХЕХХЕХЕХЕХЕХЕХЕХЕХЕХЕХ)");
                 }
             }
         }
@@ -69,5 +68,9 @@ public partial class CreateClient : Window
             Height = 150
         };
         await messageBox.ShowDialog(this);
+    }
+
+    private void Button_Click_1(object? sender, Avalonia.Interactivity.RoutedEventArgs e)
+    {
     }
 }

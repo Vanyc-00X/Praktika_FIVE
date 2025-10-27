@@ -11,6 +11,10 @@
 
 	<Application.Styles>
 		<FluentTheme />
+		<Style Selector="DataGrid">
+			<Setter Property="IsReadOnly" Value="True"/>
+			<Setter Property="SelectionMode" Value="Single"/>
+		</Style>
 		<Style Selector="TextBox">
 			<Setter Property="HorizontalContentAlignment" Value="Center"/>
 			<Setter Property="VerticalContentAlignment" Value="Center"/>

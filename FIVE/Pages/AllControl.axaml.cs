@@ -20,8 +20,20 @@ public partial class AllControl : UserControl
             DataContext = UserVariableData.SelectedUserData;
         }
         catch { return; }
-        
-       
+
+        GlobalVariables.PravNumber = UserVariableData.SelectedUserData.IdRole;
+
+        if (GlobalVariables.PravNumber == 3)
+        {
+            Kl.IsVisible = false;
+            Rabot.IsVisible = false;
+        }
+        else if (GlobalVariables.PravNumber == 2)
+        {
+            Rabot.IsVisible = false;
+        }
+
+
         RefreshDate();
 
 

@@ -34,18 +34,17 @@
 				<uc:Tovar_Spisoc/>
 			</TabItem>
 			<TabItem Header="Корзина">
-				
+				<uc:BAbaBA/>
 			</TabItem>
-			<TabItem Header="Сотрудники">
+			<TabItem x:Name="Rabot" Header="Сотрудники">
 				<uc:Sotrud/>
 			</TabItem>
 
-			<TabItem Header="Клиенты">
+			<TabItem x:Name="Kl" Header="Клиенты">
 				<uc:Clients/>
 			</TabItem>
-			
-			
-			
+
+		
 			
 			
 		</TabControl>

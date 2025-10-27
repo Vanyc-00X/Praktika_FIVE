@@ -1,0 +1,58 @@
+<UserControl xmlns="https://github.com/avaloniaui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+             mc:Ignorable="d" d:DesignWidth="800" d:DesignHeight="450"
+             x:Class="FIVE.Jokes">
+
+	<Grid Background="#f2f063">
+
+		<Grid.RowDefinitions>
+			<RowDefinition/>
+			<RowDefinition/>
+			<RowDefinition/>
+			<RowDefinition/>
+		</Grid.RowDefinitions>
+
+		<Grid.ColumnDefinitions>
+			<ColumnDefinition/>
+			<ColumnDefinition/>
+			<ColumnDefinition/>
+			<ColumnDefinition/>
+		</Grid.ColumnDefinitions>
+
+
+		
+		
+		
+		<TextBlock Text="ШУТКА ТОВАРИЩ!" FontSize="60" 
+				   Grid.ColumnSpan="2" Grid.Column="1"
+				   VerticalAlignment="Bottom"/>
+		
+		<TextBox x:Name="hfhsja"
+			FontSize="20" Width="350"
+				 Grid.Row="1" Grid.RowSpan="2" 
+				 Grid.Column="1" Grid.ColumnSpan="2"
+				 Margin="0 100 0 -80"/>
+		<Button Content="ОБНОВИТЬ"
+				Grid.Row="2" Grid.RowSpan="2" 
+				Width="212" Height="120"
+				FontSize="40"
+				HorizontalContentAlignment="Center"
+				VerticalContentAlignment="Center"
+				Click="Button_Click"/>
+
+		<Button Content="ОБНОВИТЬ"
+					Grid.Column="3"
+					Grid.Row="2" Grid.RowSpan="2"
+					Width="212" Height="120"
+					FontSize="40"
+					HorizontalContentAlignment="Center"
+					VerticalContentAlignment="Center"
+					Click="Button_Click"/>
+
+
+
+	</Grid>
+
+</UserControl>

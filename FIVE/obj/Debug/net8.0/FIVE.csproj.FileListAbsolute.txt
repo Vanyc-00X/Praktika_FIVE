@@ -814,3 +814,4 @@ Z:\dowland\FIVE\FIVE\obj\Debug\net8.0\refint\FIVE.dll
 Z:\dowland\FIVE\FIVE\obj\Debug\net8.0\FIVE.pdb
 Z:\dowland\FIVE\FIVE\obj\Debug\net8.0\FIVE.genruntimeconfig.cache
 Z:\dowland\FIVE\FIVE\obj\Debug\net8.0\ref\FIVE.dll
+Z:\dowland\FIVE\FIVE\obj\Debug\net8.0\FIVE.sourcelink.json

@@ -1,119 +1,12 @@
 {
   "Version": 1,
   "WorkspaceRootPath": "Z:\\dowland\\FIVE\\",
-  "Documents": [
-    {
-      "AbsoluteMoniker": "D:0:0:{393B04CA-E652-4113-A4AD-D791FF8E5D30}|FIVE\\FIVE.csproj|z:\\dowland\\five\\five\\data\\tovar.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{393B04CA-E652-4113-A4AD-D791FF8E5D30}|FIVE\\FIVE.csproj|solutionrelative:five\\data\\tovar.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{393B04CA-E652-4113-A4AD-D791FF8E5D30}|FIVE\\FIVE.csproj|z:\\dowland\\five\\five\\pages\\bababa.axaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{393B04CA-E652-4113-A4AD-D791FF8E5D30}|FIVE\\FIVE.csproj|solutionrelative:five\\pages\\bababa.axaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{393B04CA-E652-4113-A4AD-D791FF8E5D30}|FIVE\\FIVE.csproj|z:\\dowland\\five\\five\\pages\\bababa.axaml||{6D5344A2-2FCD-49DE-A09D-6A14FD1B1224}",
-      "RelativeMoniker": "D:0:0:{393B04CA-E652-4113-A4AD-D791FF8E5D30}|FIVE\\FIVE.csproj|solutionrelative:five\\pages\\bababa.axaml||{6D5344A2-2FCD-49DE-A09D-6A14FD1B1224}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{393B04CA-E652-4113-A4AD-D791FF8E5D30}|FIVE\\FIVE.csproj|z:\\dowland\\five\\five\\pages\\tovar_spisoc.axaml||{6D5344A2-2FCD-49DE-A09D-6A14FD1B1224}",
-      "RelativeMoniker": "D:0:0:{393B04CA-E652-4113-A4AD-D791FF8E5D30}|FIVE\\FIVE.csproj|solutionrelative:five\\pages\\tovar_spisoc.axaml||{6D5344A2-2FCD-49DE-A09D-6A14FD1B1224}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{393B04CA-E652-4113-A4AD-D791FF8E5D30}|FIVE\\FIVE.csproj|z:\\dowland\\five\\five\\data\\basket.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{393B04CA-E652-4113-A4AD-D791FF8E5D30}|FIVE\\FIVE.csproj|solutionrelative:five\\data\\basket.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{393B04CA-E652-4113-A4AD-D791FF8E5D30}|FIVE\\FIVE.csproj|z:\\dowland\\five\\five\\pages\\allcontrol.axaml||{6D5344A2-2FCD-49DE-A09D-6A14FD1B1224}",
-      "RelativeMoniker": "D:0:0:{393B04CA-E652-4113-A4AD-D791FF8E5D30}|FIVE\\FIVE.csproj|solutionrelative:five\\pages\\allcontrol.axaml||{6D5344A2-2FCD-49DE-A09D-6A14FD1B1224}"
-    }
-  ],
+  "Documents": [],
   "DocumentGroupContainers": [
     {
       "Orientation": 0,
       "VerticalTabListWidth": 256,
-      "DocumentGroups": [
-        {
-          "DockedWidth": 200,
-          "SelectedChildIndex": 0,
-          "Children": [
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "Tovar.cs",
-              "DocumentMoniker": "Z:\\dowland\\FIVE\\FIVE\\Data\\Tovar.cs",
-              "RelativeDocumentMoniker": "FIVE\\Data\\Tovar.cs",
-              "ToolTip": "Z:\\dowland\\FIVE\\FIVE\\Data\\Tovar.cs",
-              "RelativeToolTip": "FIVE\\Data\\Tovar.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAbAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-10-16T17:54:41.843Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "Basket.cs",
-              "DocumentMoniker": "Z:\\dowland\\FIVE\\FIVE\\Data\\Basket.cs",
-              "RelativeDocumentMoniker": "FIVE\\Data\\Basket.cs",
-              "ToolTip": "Z:\\dowland\\FIVE\\FIVE\\Data\\Basket.cs",
-              "RelativeToolTip": "FIVE\\Data\\Basket.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAaAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-10-16T17:53:42.293Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "Tovar_Spisoc.axaml",
-              "DocumentMoniker": "Z:\\dowland\\FIVE\\FIVE\\Pages\\Tovar_Spisoc.axaml",
-              "RelativeDocumentMoniker": "FIVE\\Pages\\Tovar_Spisoc.axaml",
-              "ToolTip": "Z:\\dowland\\FIVE\\FIVE\\Pages\\Tovar_Spisoc.axaml",
-              "RelativeToolTip": "FIVE\\Pages\\Tovar_Spisoc.axaml",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2025-10-16T17:52:58.694Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "BAbaBA.axaml",
-              "DocumentMoniker": "Z:\\dowland\\FIVE\\FIVE\\Pages\\BAbaBA.axaml",
-              "RelativeDocumentMoniker": "FIVE\\Pages\\BAbaBA.axaml",
-              "ToolTip": "Z:\\dowland\\FIVE\\FIVE\\Pages\\BAbaBA.axaml",
-              "RelativeToolTip": "FIVE\\Pages\\BAbaBA.axaml",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2025-10-13T17:47:10.189Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "BAbaBA.axaml.cs",
-              "DocumentMoniker": "Z:\\dowland\\FIVE\\FIVE\\Pages\\BAbaBA.axaml.cs",
-              "RelativeDocumentMoniker": "FIVE\\Pages\\BAbaBA.axaml.cs",
-              "ToolTip": "Z:\\dowland\\FIVE\\FIVE\\Pages\\BAbaBA.axaml.cs",
-              "RelativeToolTip": "FIVE\\Pages\\BAbaBA.axaml.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAABAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-10-13T17:47:10.045Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "AllControl.axaml",
-              "DocumentMoniker": "Z:\\dowland\\FIVE\\FIVE\\Pages\\AllControl.axaml",
-              "RelativeDocumentMoniker": "FIVE\\Pages\\AllControl.axaml",
-              "ToolTip": "Z:\\dowland\\FIVE\\FIVE\\Pages\\AllControl.axaml",
-              "RelativeToolTip": "FIVE\\Pages\\AllControl.axaml",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2025-10-13T17:46:03.466Z",
-              "EditorCaption": ""
-            }
-          ]
-        }
-      ]
+      "DocumentGroups": []
     }
   ]
 }

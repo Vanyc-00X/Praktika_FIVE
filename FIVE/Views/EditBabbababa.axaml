@@ -1,0 +1,31 @@
+<Window xmlns="https://github.com/avaloniaui"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        mc:Ignorable="d" d:DesignWidth="800" d:DesignHeight="450"
+        x:Class="FIVE.EditBabbababa"
+        Title="EditBabbababa">
+
+	<Grid Background="#f2f063">
+		
+		<TextBlock Text="количество"
+				   FontSize="80"
+				   HorizontalAlignment="Center"/>
+		
+		<TextBox Height="220" VerticalContentAlignment="Center"
+				 HorizontalContentAlignment="Center"
+				 FontSize="80" x:Name="CountT"/>
+		
+		<Button Height="85" Width="350"
+				HorizontalAlignment="Center"
+				VerticalAlignment="Bottom"
+				Content="сохранить"
+				HorizontalContentAlignment="Center" VerticalContentAlignment="Center"
+				FontSize="80"
+				Click="Button_Click"/>
+		
+		
+		</Grid>
+	
+	
+</Window>

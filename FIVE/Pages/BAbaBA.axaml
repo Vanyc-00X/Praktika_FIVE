@@ -10,8 +10,22 @@
 
 		<DataGrid x:Name="DataBasket" DoubleTapped="DataGrid_DoubleTapped" >
 			<DataGrid.Columns >
-				<DataGridTextColumn Binding="{Binding IdUserNavigation.NameTovar}" Header="Наименование"/>
+				<DataGridTextColumn Header="Покупателя номер" Binding="{Binding IdUser}" />
+
+				<DataGridTextColumn Binding="{Binding IdTovarNavigation.NameTovar}" Header="Наименование"/>
 				<DataGridTextColumn Header="Количество" Binding="{Binding CountTovar}" />
+				
+
+				<DataGridTemplateColumn Header="Действие">
+					<DataGridTemplateColumn.CellTemplate>
+						<DataTemplate>
+							<Button Content="Удалить"
+                                    Click="DeleteButton_Click"
+                                    Tag="{Binding IdBasket}"/>
+						</DataTemplate>
+					</DataGridTemplateColumn.CellTemplate>
+				</DataGridTemplateColumn>
+				
 			</DataGrid.Columns>
 		</DataGrid>
 		

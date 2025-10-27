@@ -13,7 +13,7 @@
 			<StackPanel  Margin="0 50" Spacing="10">
 				<StackPanel>
 					<TextBlock FontSize="45" Text="Количество товара " FontWeight="Bold"/>
-					<TextBlock Margin="380 -55" FontSize="45" Text="{Binding #slider.Value}"/>
+					<TextBlock Margin="380 -55" FontSize="45" Text="{Binding #slider.Value, StringFormat='{}{0:N0}'}"/>
 				</StackPanel>
 				<Slider Margin="0 100"
 						SmallChange="1"

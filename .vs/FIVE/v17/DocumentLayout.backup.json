@@ -3,24 +3,16 @@
   "WorkspaceRootPath": "Z:\\dowland\\FIVE\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{393B04CA-E652-4113-A4AD-D791FF8E5D30}|FIVE\\FIVE.csproj|z:\\dowland\\five\\five\\pages\\bababa.axaml||{6D5344A2-2FCD-49DE-A09D-6A14FD1B1224}",
-      "RelativeMoniker": "D:0:0:{393B04CA-E652-4113-A4AD-D791FF8E5D30}|FIVE\\FIVE.csproj|solutionrelative:five\\pages\\bababa.axaml||{6D5344A2-2FCD-49DE-A09D-6A14FD1B1224}"
+      "AbsoluteMoniker": "D:0:0:{393B04CA-E652-4113-A4AD-D791FF8E5D30}|FIVE\\FIVE.csproj|z:\\dowland\\five\\five\\views\\editbabbababa.axaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{393B04CA-E652-4113-A4AD-D791FF8E5D30}|FIVE\\FIVE.csproj|solutionrelative:five\\views\\editbabbababa.axaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{393B04CA-E652-4113-A4AD-D791FF8E5D30}|FIVE\\FIVE.csproj|z:\\dowland\\five\\five\\pages\\tovar_spisoc.axaml||{6D5344A2-2FCD-49DE-A09D-6A14FD1B1224}",
-      "RelativeMoniker": "D:0:0:{393B04CA-E652-4113-A4AD-D791FF8E5D30}|FIVE\\FIVE.csproj|solutionrelative:five\\pages\\tovar_spisoc.axaml||{6D5344A2-2FCD-49DE-A09D-6A14FD1B1224}"
+      "AbsoluteMoniker": "D:0:0:{393B04CA-E652-4113-A4AD-D791FF8E5D30}|FIVE\\FIVE.csproj|z:\\dowland\\five\\five\\views\\createclient.axaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{393B04CA-E652-4113-A4AD-D791FF8E5D30}|FIVE\\FIVE.csproj|solutionrelative:five\\views\\createclient.axaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{393B04CA-E652-4113-A4AD-D791FF8E5D30}|FIVE\\FIVE.csproj|z:\\dowland\\five\\five\\data\\appdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{393B04CA-E652-4113-A4AD-D791FF8E5D30}|FIVE\\FIVE.csproj|solutionrelative:five\\data\\appdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{393B04CA-E652-4113-A4AD-D791FF8E5D30}|FIVE\\FIVE.csproj|z:\\dowland\\five\\five\\pages\\bababa.axaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{393B04CA-E652-4113-A4AD-D791FF8E5D30}|FIVE\\FIVE.csproj|solutionrelative:five\\pages\\bababa.axaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{393B04CA-E652-4113-A4AD-D791FF8E5D30}|FIVE\\FIVE.csproj|z:\\dowland\\five\\five\\pages\\allcontrol.axaml||{6D5344A2-2FCD-49DE-A09D-6A14FD1B1224}",
-      "RelativeMoniker": "D:0:0:{393B04CA-E652-4113-A4AD-D791FF8E5D30}|FIVE\\FIVE.csproj|solutionrelative:five\\pages\\allcontrol.axaml||{6D5344A2-2FCD-49DE-A09D-6A14FD1B1224}"
+      "AbsoluteMoniker": "D:0:0:{393B04CA-E652-4113-A4AD-D791FF8E5D30}|FIVE\\FIVE.csproj|z:\\dowland\\five\\five\\views\\editbabbababa.axaml||{6D5344A2-2FCD-49DE-A09D-6A14FD1B1224}",
+      "RelativeMoniker": "D:0:0:{393B04CA-E652-4113-A4AD-D791FF8E5D30}|FIVE\\FIVE.csproj|solutionrelative:five\\views\\editbabbababa.axaml||{6D5344A2-2FCD-49DE-A09D-6A14FD1B1224}"
     }
   ],
   "DocumentGroupContainers": [
@@ -30,68 +22,44 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 2,
+          "SelectedChildIndex": 1,
           "Children": [
             {
               "$type": "Document",
               "DocumentIndex": 1,
-              "Title": "Tovar_Spisoc.axaml",
-              "DocumentMoniker": "Z:\\dowland\\FIVE\\FIVE\\Pages\\Tovar_Spisoc.axaml",
-              "RelativeDocumentMoniker": "FIVE\\Pages\\Tovar_Spisoc.axaml",
-              "ToolTip": "Z:\\dowland\\FIVE\\FIVE\\Pages\\Tovar_Spisoc.axaml",
-              "RelativeToolTip": "FIVE\\Pages\\Tovar_Spisoc.axaml",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2025-10-16T17:52:58.694Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "AppDbContext.cs",
-              "DocumentMoniker": "Z:\\dowland\\FIVE\\FIVE\\Data\\AppDbContext.cs",
-              "RelativeDocumentMoniker": "FIVE\\Data\\AppDbContext.cs",
-              "ToolTip": "Z:\\dowland\\FIVE\\FIVE\\Data\\AppDbContext.cs",
-              "RelativeToolTip": "FIVE\\Data\\AppDbContext.cs",
+              "Title": "CreateClient.axaml.cs",
+              "DocumentMoniker": "Z:\\dowland\\FIVE\\FIVE\\Views\\CreateClient.axaml.cs",
+              "RelativeDocumentMoniker": "FIVE\\Views\\CreateClient.axaml.cs",
+              "ToolTip": "Z:\\dowland\\FIVE\\FIVE\\Views\\CreateClient.axaml.cs",
+              "RelativeToolTip": "FIVE\\Views\\CreateClient.axaml.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-10-16T17:50:01.408Z",
+              "WhenOpened": "2025-10-27T18:27:14.937Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "BAbaBA.axaml",
-              "DocumentMoniker": "Z:\\dowland\\FIVE\\FIVE\\Pages\\BAbaBA.axaml",
-              "RelativeDocumentMoniker": "FIVE\\Pages\\BAbaBA.axaml",
-              "ToolTip": "Z:\\dowland\\FIVE\\FIVE\\Pages\\BAbaBA.axaml",
-              "RelativeToolTip": "FIVE\\Pages\\BAbaBA.axaml",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2025-10-13T17:47:10.189Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "BAbaBA.axaml.cs",
-              "DocumentMoniker": "Z:\\dowland\\FIVE\\FIVE\\Pages\\BAbaBA.axaml.cs",
-              "RelativeDocumentMoniker": "FIVE\\Pages\\BAbaBA.axaml.cs",
-              "ToolTip": "Z:\\dowland\\FIVE\\FIVE\\Pages\\BAbaBA.axaml.cs*",
-              "RelativeToolTip": "FIVE\\Pages\\BAbaBA.axaml.cs*",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Title": "EditBabbababa.axaml.cs",
+              "DocumentMoniker": "Z:\\dowland\\FIVE\\FIVE\\Views\\EditBabbababa.axaml.cs",
+              "RelativeDocumentMoniker": "FIVE\\Views\\EditBabbababa.axaml.cs",
+              "ToolTip": "Z:\\dowland\\FIVE\\FIVE\\Views\\EditBabbababa.axaml.cs*",
+              "RelativeToolTip": "FIVE\\Views\\EditBabbababa.axaml.cs*",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAABQAAAAHAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-10-13T17:47:10.045Z",
+              "WhenOpened": "2025-10-27T18:00:52.28Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "AllControl.axaml",
-              "DocumentMoniker": "Z:\\dowland\\FIVE\\FIVE\\Pages\\AllControl.axaml",
-              "RelativeDocumentMoniker": "FIVE\\Pages\\AllControl.axaml",
-              "ToolTip": "Z:\\dowland\\FIVE\\FIVE\\Pages\\AllControl.axaml",
-              "RelativeToolTip": "FIVE\\Pages\\AllControl.axaml",
+              "DocumentIndex": 2,
+              "Title": "EditBabbababa.axaml",
+              "DocumentMoniker": "Z:\\dowland\\FIVE\\FIVE\\Views\\EditBabbababa.axaml",
+              "RelativeDocumentMoniker": "FIVE\\Views\\EditBabbababa.axaml",
+              "ToolTip": "Z:\\dowland\\FIVE\\FIVE\\Views\\EditBabbababa.axaml",
+              "RelativeToolTip": "FIVE\\Views\\EditBabbababa.axaml",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2025-10-13T17:46:03.466Z",
+              "WhenOpened": "2025-10-27T18:00:51.368Z",
               "EditorCaption": ""
             }
           ]

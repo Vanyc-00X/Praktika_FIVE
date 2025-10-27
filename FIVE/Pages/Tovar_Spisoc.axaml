@@ -13,10 +13,17 @@
 
 	<Grid Background="#f2f063" >
 
-		<DataGrid x:Name="DataTovar" DoubleTapped="DataGrid_DoubleTapped" >
-			<DataGrid.Columns >
+		<DataGrid x:Name="DataTovar" DoubleTapped="DataGrid_DoubleTapped">
+			<DataGrid.Columns>
 				<DataGridTextColumn Binding="{Binding NameTovar}" Header="Наименование"/>
-				<DataGridTextColumn Header="ЦЕНА" Binding="{Binding Sell}" />
+				<DataGridTextColumn Header="ЦЕНА" Binding="{Binding Sell}"/>
+				<DataGridTemplateColumn Header="Действия">
+					<DataGridTemplateColumn.CellTemplate>
+						<DataTemplate>
+							<Button Content="Удалить" Click="DeleteButton_Click" Tag="{Binding}"/>
+						</DataTemplate>
+					</DataGridTemplateColumn.CellTemplate>
+				</DataGridTemplateColumn>
 			</DataGrid.Columns>
 		</DataGrid>
 

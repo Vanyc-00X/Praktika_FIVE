@@ -45,22 +45,33 @@ public partial class Tovar_Spisoc : UserControl
 
     private async void DataGrid_DoubleTapped(object? sender, Avalonia.Input.TappedEventArgs e)
     {
-        var selectedTovar = DataTovar.SelectedItem as Tovar; // «амените Tovar на фактическое им€ класса модели товара
+        var selectedTovar = DataTovar.SelectedItem as Tovar;
 
-        if (selectedTovar != null)
+        if (selectedTovar != null )
         {
-            
+
             UserVariableData.SelectedTovarData = selectedTovar;
 
-            
+
             var cardTovar = new CardTovar();
             await cardTovar.ShowDialog(GetWindow());
 
         }
+        else return;
         if (GlobalVariables.FrameModde == 2)
         {
             DrOkno();
         }
 
+    }
+    private void DeleteButton_Click(object? sender, Avalonia.Interactivity.RoutedEventArgs e)
+    {
+        if (sender is Button button && button.Tag is Tovar tovar)
+        {
+            App.DbContext.Tovars.Remove(tovar);
+            App.DbContext.SaveChanges();
+
+            ReData();
+        }
     }
 }

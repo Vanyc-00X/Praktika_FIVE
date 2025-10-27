@@ -12,7 +12,12 @@ namespace FIVE.Models
     {
         public static int FrameModde { get; set; } = 0;
         public static int CountTovar { get; set;} = 1;
-        
+
+        public static int PravNumber { get; set; }
+
+
+
+
         public static List<object> Basket_Pol = new List<object>();
 
         

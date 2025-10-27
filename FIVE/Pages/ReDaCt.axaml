@@ -3,8 +3,10 @@
         xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         mc:Ignorable="d" d:DesignWidth="800" d:DesignHeight="450"
-        x:Class="FIVE.CreateClient"
-        Title="CreateClient">
+        x:Class="FIVE.ReDaCt"
+        Title="ReDaCt">
+
+
 	<Grid Background="#f2f063">
 		<Grid.RowDefinitions>
 			<RowDefinition/>
@@ -20,8 +22,8 @@
 			<ColumnDefinition/>
 
 		</Grid.ColumnDefinitions>
-		
-		<TextBlock  Text="Регистрация клиента" FontSize="55" 
+
+		<TextBlock  Text="Регистрация клиента" FontSize="55"
 				   Grid.ColumnSpan="4" HorizontalAlignment="Center"/>
 		<TextBlock HorizontalAlignment="Left" VerticalAlignment="Center" Text="Учётное имя" Grid.Row="1" FontSize="35" Margin="10"/>
 		<TextBlock HorizontalAlignment="Left" VerticalAlignment="Center" Text="Пароль учетки" Grid.Row="2" FontSize="35" Margin="10"/>
@@ -41,17 +43,19 @@
 				/>
 		<TextBlock  Text="Почта"  FontSize="35" Grid.Row="1" Grid.Column="3" HorizontalAlignment="Center" VerticalAlignment="Center" Margin="0 -10"/>
 		<TextBlock Text="телефон"  FontSize="35" Grid.Row="2" Grid.Column="3" HorizontalAlignment="Center" VerticalAlignment="Center" Margin="0 -10"/>
-		
+
 		<Button Grid.Column="2" Grid.Row="3" Grid.ColumnSpan="4"
 				Width="350" Height="80" HorizontalAlignment="Center" VerticalAlignment="Center"
 				HorizontalContentAlignment="Center" VerticalContentAlignment="Center"
-				Content="создать" FontSize="70"
+				Content="обноваить" FontSize="70"
 				Click="Button_Click"/>
-		
-		
-		
-		
-		
-		
+
+
+
+
+
+
 	</Grid>
+
+
 </Window>

@@ -22,19 +22,28 @@
 		</Grid.ColumnDefinitions>
 
 
-		<DataGrid  x:Name="DataSotrudnic">
+		<DataGrid DoubleTapped="DataGrid_DoubleTapped" x:Name="DataSotrudnic">
 			<DataGrid.Columns>
-				<DataGridTextColumn  Width="200" Binding="{Binding IdHumanNavigation.Fio}" Header="ФИО"/>
+				<DataGridTextColumn Width="200" Binding="{Binding IdHumanNavigation.Fio}" Header="ФИО"/>
+				<DataGridTemplateColumn Header="Действия">
+					<DataGridTemplateColumn.CellTemplate>
+						<DataTemplate>
+							<Button Content="Удалить" Click="DeleteButton_Click" Tag="{Binding}"/>
+						</DataTemplate>
+					</DataGridTemplateColumn.CellTemplate>
+				</DataGridTemplateColumn>
 			</DataGrid.Columns>
 		</DataGrid>
-		
-		
-		
-		
-		
-		
-		
-		
+
+
+
+
+
+
+
+		<Button Grid.Row="3" Height="120" HorizontalAlignment="Right" Content="Долбавить"
+   FontSize="40" HorizontalContentAlignment="Center" VerticalContentAlignment="Center"
+   Width="200" Click="Button_Click"/>
 		
 		
 	</Grid>

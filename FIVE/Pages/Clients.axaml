@@ -22,11 +22,21 @@
 		</Grid.ColumnDefinitions>
 
 
-		<DataGrid  x:Name="DataClient">
-			<DataGrid.Columns>
-				<DataGridTextColumn  Width="200" Binding="{Binding IdHumanNavigation.Fio}" Header="ФИО"/>
-			</DataGrid.Columns>
-		</DataGrid>
+		<DataGrid  x:Name="DataClient" DoubleTapped="DataGrid_DoubleTapped">
+            <DataGrid.Columns>
+                <DataGridTextColumn Width="200" Binding="{Binding IdHumanNavigation.Fio}" Header="ФИО"/>
+                <DataGridTemplateColumn Header="Действия">
+                    <DataGridTemplateColumn.CellTemplate>
+                        <DataTemplate>
+                            <Button Content="Удалить" Click="DeleteButton_Click" Tag="{Binding}"/>
+                        </DataTemplate>
+                    </DataGridTemplateColumn.CellTemplate>
+                </DataGridTemplateColumn>
+            </DataGrid.Columns>
+        </DataGrid>
+		
+		
+		
 		
 	</Grid>
 	

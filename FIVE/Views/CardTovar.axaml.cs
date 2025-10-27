@@ -19,21 +19,23 @@ public partial class CardTovar : Window
     }
 
     private void Button_Click(object? sender, Avalonia.Interactivity.RoutedEventArgs e)
-    {
-        try
-        {
-            var TovarDataContext = DataContext as Tovar;
-            if (TovarDataContext != null)
+    {   
+            if(GlobalVariables.PravNumber != 3) {
+            try
             {
-                App.DbContext.Tovars.Update(TovarDataContext);
-                App.DbContext.SaveChanges(); // Обычно нужно сохранять изменения
+                var TovarDataContext = DataContext as Tovar;
+                if (TovarDataContext != null)
+                {
+                    App.DbContext.Tovars.Update(TovarDataContext);
+                    App.DbContext.SaveChanges();
+                }
             }
-        }
-        catch
-        {
-            return;
-        }
-        Close();
+            catch { return; }
+            
+            }
+            else { ShowError(); }
+        
+            Close();
 
 
     }
@@ -48,5 +50,17 @@ public partial class CardTovar : Window
     {
         GlobalVariables.FrameModde = 2;
         Button_Click(sender, e);
+    }
+
+    private async Task ShowError()
+    {
+        var messageBox = new Window
+        {
+            Title = "Ошибка",
+            Content = new TextBlock { Text = "НЕТУ ПРАВ" },
+            Width = 300,
+            Height = 150
+        };
+        await messageBox.ShowDialog(this);
     }
 }
