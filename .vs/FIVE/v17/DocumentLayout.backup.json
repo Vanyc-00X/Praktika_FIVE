@@ -1,18 +1,38 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "Z:\\dowland\\FIVE\\",
+  "WorkspaceRootPath": "C:\\Users\\212316\\Desktop\\pracs\\Praktika_FIVE\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{393B04CA-E652-4113-A4AD-D791FF8E5D30}|FIVE\\FIVE.csproj|z:\\dowland\\five\\five\\views\\editbabbababa.axaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{393B04CA-E652-4113-A4AD-D791FF8E5D30}|FIVE\\FIVE.csproj|solutionrelative:five\\views\\editbabbababa.axaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{393B04CA-E652-4113-A4AD-D791FF8E5D30}|FIVE\\FIVE.csproj|c:\\users\\212316\\desktop\\pracs\\praktika_five\\five\\pages\\bababa.axaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{393B04CA-E652-4113-A4AD-D791FF8E5D30}|FIVE\\FIVE.csproj|solutionrelative:five\\pages\\bababa.axaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{393B04CA-E652-4113-A4AD-D791FF8E5D30}|FIVE\\FIVE.csproj|z:\\dowland\\five\\five\\views\\createclient.axaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{393B04CA-E652-4113-A4AD-D791FF8E5D30}|FIVE\\FIVE.csproj|solutionrelative:five\\views\\createclient.axaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{393B04CA-E652-4113-A4AD-D791FF8E5D30}|FIVE\\FIVE.csproj|c:\\users\\212316\\desktop\\pracs\\praktika_five\\five\\models\\uservariabledata.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{393B04CA-E652-4113-A4AD-D791FF8E5D30}|FIVE\\FIVE.csproj|solutionrelative:five\\models\\uservariabledata.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{393B04CA-E652-4113-A4AD-D791FF8E5D30}|FIVE\\FIVE.csproj|z:\\dowland\\five\\five\\views\\editbabbababa.axaml||{6D5344A2-2FCD-49DE-A09D-6A14FD1B1224}",
-      "RelativeMoniker": "D:0:0:{393B04CA-E652-4113-A4AD-D791FF8E5D30}|FIVE\\FIVE.csproj|solutionrelative:five\\views\\editbabbababa.axaml||{6D5344A2-2FCD-49DE-A09D-6A14FD1B1224}"
+      "AbsoluteMoniker": "D:0:0:{393B04CA-E652-4113-A4AD-D791FF8E5D30}|FIVE\\FIVE.csproj|c:\\users\\212316\\desktop\\pracs\\praktika_five\\five\\data\\basket.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{393B04CA-E652-4113-A4AD-D791FF8E5D30}|FIVE\\FIVE.csproj|solutionrelative:five\\data\\basket.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{393B04CA-E652-4113-A4AD-D791FF8E5D30}|FIVE\\FIVE.csproj|c:\\users\\212316\\desktop\\pracs\\praktika_five\\five\\data\\bapol.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{393B04CA-E652-4113-A4AD-D791FF8E5D30}|FIVE\\FIVE.csproj|solutionrelative:five\\data\\bapol.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{393B04CA-E652-4113-A4AD-D791FF8E5D30}|FIVE\\FIVE.csproj|c:\\users\\212316\\desktop\\pracs\\praktika_five\\five\\pages\\clients.axaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{393B04CA-E652-4113-A4AD-D791FF8E5D30}|FIVE\\FIVE.csproj|solutionrelative:five\\pages\\clients.axaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{393B04CA-E652-4113-A4AD-D791FF8E5D30}|FIVE\\FIVE.csproj|c:\\users\\212316\\desktop\\pracs\\praktika_five\\five\\pages\\clients.axaml||{6D5344A2-2FCD-49DE-A09D-6A14FD1B1224}",
+      "RelativeMoniker": "D:0:0:{393B04CA-E652-4113-A4AD-D791FF8E5D30}|FIVE\\FIVE.csproj|solutionrelative:five\\pages\\clients.axaml||{6D5344A2-2FCD-49DE-A09D-6A14FD1B1224}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{393B04CA-E652-4113-A4AD-D791FF8E5D30}|FIVE\\FIVE.csproj|c:\\users\\212316\\desktop\\pracs\\praktika_five\\five\\pages\\sotrud.axaml||{6D5344A2-2FCD-49DE-A09D-6A14FD1B1224}",
+      "RelativeMoniker": "D:0:0:{393B04CA-E652-4113-A4AD-D791FF8E5D30}|FIVE\\FIVE.csproj|solutionrelative:five\\pages\\sotrud.axaml||{6D5344A2-2FCD-49DE-A09D-6A14FD1B1224}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{393B04CA-E652-4113-A4AD-D791FF8E5D30}|FIVE\\FIVE.csproj|c:\\users\\212316\\desktop\\pracs\\praktika_five\\five\\data\\appdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{393B04CA-E652-4113-A4AD-D791FF8E5D30}|FIVE\\FIVE.csproj|solutionrelative:five\\data\\appdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -22,44 +42,109 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 1,
+          "SelectedChildIndex": 4,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "CreateClient.axaml.cs",
-              "DocumentMoniker": "Z:\\dowland\\FIVE\\FIVE\\Views\\CreateClient.axaml.cs",
-              "RelativeDocumentMoniker": "FIVE\\Views\\CreateClient.axaml.cs",
-              "ToolTip": "Z:\\dowland\\FIVE\\FIVE\\Views\\CreateClient.axaml.cs",
-              "RelativeToolTip": "FIVE\\Views\\CreateClient.axaml.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "DocumentIndex": 3,
+              "Title": "BaPol.cs",
+              "DocumentMoniker": "C:\\Users\\212316\\Desktop\\pracs\\Praktika_FIVE\\FIVE\\Data\\BaPol.cs",
+              "RelativeDocumentMoniker": "FIVE\\Data\\BaPol.cs",
+              "ToolTip": "C:\\Users\\212316\\Desktop\\pracs\\Praktika_FIVE\\FIVE\\Data\\BaPol.cs",
+              "RelativeToolTip": "FIVE\\Data\\BaPol.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAWAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-10-27T18:27:14.937Z",
+              "WhenOpened": "2025-10-31T08:04:50.776Z",
+              "IsPinned": true,
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "EditBabbababa.axaml.cs",
-              "DocumentMoniker": "Z:\\dowland\\FIVE\\FIVE\\Views\\EditBabbababa.axaml.cs",
-              "RelativeDocumentMoniker": "FIVE\\Views\\EditBabbababa.axaml.cs",
-              "ToolTip": "Z:\\dowland\\FIVE\\FIVE\\Views\\EditBabbababa.axaml.cs*",
-              "RelativeToolTip": "FIVE\\Views\\EditBabbababa.axaml.cs*",
-              "ViewState": "AgIAAAYAAAAAAAAAAAAAABQAAAAHAAAAAAAAAA==",
+              "DocumentIndex": 4,
+              "Title": "Clients.axaml.cs",
+              "DocumentMoniker": "C:\\Users\\212316\\Desktop\\pracs\\Praktika_FIVE\\FIVE\\Pages\\Clients.axaml.cs",
+              "RelativeDocumentMoniker": "FIVE\\Pages\\Clients.axaml.cs",
+              "ToolTip": "C:\\Users\\212316\\Desktop\\pracs\\Praktika_FIVE\\FIVE\\Pages\\Clients.axaml.cs",
+              "RelativeToolTip": "FIVE\\Pages\\Clients.axaml.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-10-27T18:00:52.28Z",
+              "WhenOpened": "2025-10-31T09:04:20.071Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 2,
-              "Title": "EditBabbababa.axaml",
-              "DocumentMoniker": "Z:\\dowland\\FIVE\\FIVE\\Views\\EditBabbababa.axaml",
-              "RelativeDocumentMoniker": "FIVE\\Views\\EditBabbababa.axaml",
-              "ToolTip": "Z:\\dowland\\FIVE\\FIVE\\Views\\EditBabbababa.axaml",
-              "RelativeToolTip": "FIVE\\Views\\EditBabbababa.axaml",
+              "Title": "Basket.cs",
+              "DocumentMoniker": "C:\\Users\\212316\\Desktop\\pracs\\Praktika_FIVE\\FIVE\\Data\\Basket.cs",
+              "RelativeDocumentMoniker": "FIVE\\Data\\Basket.cs",
+              "ToolTip": "C:\\Users\\212316\\Desktop\\pracs\\Praktika_FIVE\\FIVE\\Data\\Basket.cs",
+              "RelativeToolTip": "FIVE\\Data\\Basket.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAVAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-31T08:24:23.83Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "UserVariableData.cs",
+              "DocumentMoniker": "C:\\Users\\212316\\Desktop\\pracs\\Praktika_FIVE\\FIVE\\Models\\UserVariableData.cs",
+              "RelativeDocumentMoniker": "FIVE\\Models\\UserVariableData.cs",
+              "ToolTip": "C:\\Users\\212316\\Desktop\\pracs\\Praktika_FIVE\\FIVE\\Models\\UserVariableData.cs",
+              "RelativeToolTip": "FIVE\\Models\\UserVariableData.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABgAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-31T07:36:38.64Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "BAbaBA.axaml.cs",
+              "DocumentMoniker": "C:\\Users\\212316\\Desktop\\pracs\\Praktika_FIVE\\FIVE\\Pages\\BAbaBA.axaml.cs",
+              "RelativeDocumentMoniker": "FIVE\\Pages\\BAbaBA.axaml.cs",
+              "ToolTip": "C:\\Users\\212316\\Desktop\\pracs\\Praktika_FIVE\\FIVE\\Pages\\BAbaBA.axaml.cs",
+              "RelativeToolTip": "FIVE\\Pages\\BAbaBA.axaml.cs",
+              "ViewState": "AgIAAC8AAAAAAAAAAAAUwD8AAAAMAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-31T07:17:20.966Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Clients.axaml",
+              "DocumentMoniker": "C:\\Users\\212316\\Desktop\\pracs\\Praktika_FIVE\\FIVE\\Pages\\Clients.axaml",
+              "RelativeDocumentMoniker": "FIVE\\Pages\\Clients.axaml",
+              "ToolTip": "C:\\Users\\212316\\Desktop\\pracs\\Praktika_FIVE\\FIVE\\Pages\\Clients.axaml",
+              "RelativeToolTip": "FIVE\\Pages\\Clients.axaml",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2025-10-27T18:00:51.368Z",
+              "WhenOpened": "2025-10-31T06:59:38.757Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "Sotrud.axaml",
+              "DocumentMoniker": "C:\\Users\\212316\\Desktop\\pracs\\Praktika_FIVE\\FIVE\\Pages\\Sotrud.axaml",
+              "RelativeDocumentMoniker": "FIVE\\Pages\\Sotrud.axaml",
+              "ToolTip": "C:\\Users\\212316\\Desktop\\pracs\\Praktika_FIVE\\FIVE\\Pages\\Sotrud.axaml",
+              "RelativeToolTip": "FIVE\\Pages\\Sotrud.axaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2025-10-31T06:57:44.175Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "AppDbContext.cs",
+              "DocumentMoniker": "C:\\Users\\212316\\Desktop\\pracs\\Praktika_FIVE\\FIVE\\Data\\AppDbContext.cs",
+              "RelativeDocumentMoniker": "FIVE\\Data\\AppDbContext.cs",
+              "ToolTip": "C:\\Users\\212316\\Desktop\\pracs\\Praktika_FIVE\\FIVE\\Data\\AppDbContext.cs",
+              "RelativeToolTip": "FIVE\\Data\\AppDbContext.cs",
+              "ViewState": "AgIAABEAAAAAAAAAAAA9wBQAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-31T06:57:02.524Z",
               "EditorCaption": ""
             }
           ]

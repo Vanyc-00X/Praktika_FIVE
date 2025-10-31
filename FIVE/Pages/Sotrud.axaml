@@ -22,7 +22,7 @@
 		</Grid.ColumnDefinitions>
 
 
-		<DataGrid DoubleTapped="DataGrid_DoubleTapped" x:Name="DataSotrudnic">
+		<DataGrid DoubleTapped="DataGrid_DoubleTapped" x:Name="DataSotrudnic" Grid.RowSpan="2" Grid.ColumnSpan="3">
 			<DataGrid.Columns>
 				<DataGridTextColumn Width="200" Binding="{Binding IdHumanNavigation.Fio}" Header="ФИО"/>
 				<DataGridTemplateColumn Header="Действия">

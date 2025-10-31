@@ -8,7 +8,7 @@
 	<Grid Background="#f2f063">
 
 
-		<DataGrid x:Name="DataBasket" DoubleTapped="DataGrid_DoubleTapped" >
+		<DataGrid  x:Name="DataBasket" DoubleTapped="DataGrid_DoubleTapped" >
 			<DataGrid.Columns >
 				<DataGridTextColumn Header="Покупателя номер" Binding="{Binding IdUser}" />
 
@@ -28,6 +28,20 @@
 				
 			</DataGrid.Columns>
 		</DataGrid>
+
+
+
+		<DataGrid x:Name="DataPolBa">
+			<DataGrid.Columns>
+				<DataGridTextColumn Header="Заказ номер" Binding="{Binding IdBa}" />
+				<DataGridTextColumn Header="Закаp" Binding="{Binding IdTovar}" />
+				<DataGridTextColumn Header="Пользователь номер" Binding="{Binding IdUser}" />
+			</DataGrid.Columns>
+		</DataGrid>
+		
+		
+		<Button HorizontalAlignment="Center" VerticalAlignment="Bottom" Content="Создать" 
+				Click="Button_Click"/>
 		
 		
 		

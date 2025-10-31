@@ -18,7 +18,7 @@ namespace FIVE.Models
 
 
 
-        public static List<object> Basket_Pol = new List<object>();
+        
 
         
     }

@@ -6,6 +6,7 @@ using FIVE.Data;
 using FIVE.Models;
 using FIVE.Views;
 using Microsoft.EntityFrameworkCore;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
@@ -15,20 +16,27 @@ namespace FIVE;
 public partial class BAbaBA : UserControl
 {
     public static List<Basket> otbor {  get; set; }
+    public static List<BaPol> otbor2 { get; set; }
 
     public void ReFresh()
     {
         if (GlobalVariables.PravNumber == 3)
         {
+            DataBasket.IsVisible = false;
             otbor = App.DbContext.Baskets
            .Where(t => t.IdUser == UserVariableData.SelectedUserData.IdUser)
            .Include(b => b.IdTovarNavigation).ToList();
+            DataBasket.ItemsSource = otbor;
         }
         else
         {
-            otbor = App.DbContext.Baskets.ToList();
+            DataPolBa.IsVisible = false;
+            otbor2 = App.DbContext.BaPols.ToList();
+            DataPolBa.ItemsSource = otbor2;
+
+
         }
-        DataBasket.ItemsSource = otbor;
+        
         ReFresh();
     }
     public BAbaBA()
@@ -39,17 +47,25 @@ public partial class BAbaBA : UserControl
 
 
 
+
         if (GlobalVariables.PravNumber == 3)
         {
+            DataPolBa.IsVisible = false;
             otbor = App.DbContext.Baskets
            .Where(t => t.IdUser == UserVariableData.SelectedUserData.IdUser)
            .Include(b => b.IdTovarNavigation).ToList();
+            DataBasket.ItemsSource = otbor;
         }
         else
         {
-            otbor = App.DbContext.Baskets.ToList();
+            
+            DataBasket.IsVisible = false;
+            otbor2 = App.DbContext.BaPols.ToList();
+            DataPolBa.ItemsSource = otbor2;
+
+
         }
-        DataBasket.ItemsSource = otbor;
+
     }
     private MainWindow? GetWindow()
     {
@@ -94,5 +110,47 @@ public partial class BAbaBA : UserControl
        var asd = new EditBabbababa();
         await asd.ShowDialog(GetWindow());
         ReFresh();
+    }
+
+    private void Button_Click(object? sender, Avalonia.Interactivity.RoutedEventArgs e)
+    {
+        if (GlobalVariables.PravNumber == 3 && DataBasket.ItemsSource != null)
+        {
+            
+            var d = otbor;
+            string text = "";
+            foreach (var item in otbor)
+            {
+                var kod_tov = item.IdTovar;
+                var count = item.CountTovar;
+                
+                text += $" количество: {count}  товар:{kod_tov} ";
+            }
+
+
+
+
+
+            var bagdjd = new BaPol()
+            {
+                IdTovar = text,
+                IdUser = UserVariableData.SelectedUserData.IdUser,
+                Count = "АПЕЛЬСИН"
+
+            };
+
+
+            
+            App.DbContext.BaPols.Add(bagdjd);
+           
+            App.DbContext.SaveChanges();
+
+        }
+        else
+        {
+            return;
+
+        }
+
     }
 }

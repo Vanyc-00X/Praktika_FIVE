@@ -6,9 +6,6 @@ namespace FIVE.Data;
 
 public partial class AppDbContext : DbContext
 {
-
-
-
     public AppDbContext()
     {
     }
@@ -17,6 +14,8 @@ public partial class AppDbContext : DbContext
         : base(options)
     {
     }
+
+    public virtual DbSet<BaPol> BaPols { get; set; }
 
     public virtual DbSet<Basket> Baskets { get; set; }
 
@@ -30,10 +29,33 @@ public partial class AppDbContext : DbContext
 
     protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
 #warning To protect potentially sensitive information in your connection string, you should move it out of source code. You can avoid scaffolding the connection string by using the Name= syntax to read it from configuration - see https://go.microsoft.com/fwlink/?linkid=2131148. For more guidance on storing connection strings, see https://go.microsoft.com/fwlink/?LinkId=723263.
-        => optionsBuilder.UseSqlServer("Server=.;Database=PrakFIVE;Trusted_Connection=True;Encrypt=True;TrustServerCertificate=True;MultipleActiveResultSets=true");
+        => optionsBuilder.UseSqlServer("Server=sql-ser-larisa\\serv1215;Database=PrakFIVE;Trusted_Connection=True;Encrypt=True;TrustServerCertificate=True;");
 
     protected override void OnModelCreating(ModelBuilder modelBuilder)
     {
+        modelBuilder.Entity<BaPol>(entity =>
+        {
+            entity.HasKey(e => e.IdBa);
+
+            entity.ToTable("ba_pol");
+
+            entity.Property(e => e.IdBa).HasColumnName("id_Ba");
+            entity.Property(e => e.Count)
+                .HasMaxLength(10)
+                .IsFixedLength()
+                .HasColumnName("COUNT");
+            entity.Property(e => e.IdTovar)
+                .HasMaxLength(1000)
+                .IsFixedLength()
+                .HasColumnName("Id_Tovar");
+            entity.Property(e => e.IdUser).HasColumnName("id_user");
+
+            entity.HasOne(d => d.IdUserNavigation).WithMany(p => p.BaPols)
+                .HasForeignKey(d => d.IdUser)
+                .OnDelete(DeleteBehavior.Cascade)
+                .HasConstraintName("FK_ba_pol_User");
+        });
+
         modelBuilder.Entity<Basket>(entity =>
         {
             entity.HasKey(e => e.IdBasket);
